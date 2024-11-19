@@ -1,0 +1,147 @@
+body {
+    background:url(Scale.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+    float: center;
+    }
+
+    div{
+        float:center;
+    }
+
+    body{
+        padding:0;
+        margin:0;
+        text-decoration:none;
+        list-style:none;
+        box-sizing:border-box;
+      }
+    
+     nav {
+        background-color:#f9b650;
+        height:80px;
+        width:100%;
+     }
+    
+     label.logo {
+        color:#000000
+        font-size:45px;
+        line-height:80px;
+        padding: 0 100px;
+        font-weight:bold;
+     }
+    
+     nav ul {
+        float:right;
+        margin-right:20px;
+     }
+    
+     nav ul li {
+        display:inline-block;
+        line-height:80px;
+        margin: 0 5px;
+     }
+      nav ul li a {
+        color:black;
+        font-size:17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+      }
+    
+    a.active,a:hover{
+        background:#000000;
+        color:#f9b650;
+        transition: .5s;
+    }
+
+    footer {
+        font-size:100%;
+        background:#f9b650;
+        color:black;
+        width:100%;
+     }
+
+     div {
+
+        padding: 20px;
+        width: "500";
+    }
+    
+    .wrapper {
+       width: 620px;
+       background:black;
+       border: 2px solid rgba(255, 255, 255 .2);
+       color:#ffffff;
+       border-radius:12px;
+    }
+    
+    .wrapper h1 {
+       color:rgb(250, 182, 79);
+       text-align:center;
+    }
+    
+    .wrapper.input-box {
+       width:250%;
+       height: 300px;px;
+       margin:30px 0;
+       float: center;
+    }
+    
+    .input-box.input {
+       width:100%;
+       height:100%;
+       background:transparent;
+       border:none;
+       outline:none;
+       border:2px solid rgba(255, 255, 255 .2);
+       border-radius:40px;
+    }
+    
+    .input-box input::placeholder {
+       color:#494949;
+    }
+
+    p {
+        font-size:20px;
+        text-align:center;
+    }
+
+    .message{
+        width:200px; 
+        height:600px;
+    }
+
+    button {
+        width:fit-content;
+        display:inline-block;
+        padding: 9px 24px;
+        background:transparent;
+        border:2px solid #fff;
+        border-radius: 40px;
+        color:#f9b650;
+     }
+     
+     label.input-box {
+        color:#000000;
+        background:transparent;
+        border: 1px solid white;
+        border-radius:12px;
+     }
+
+     label.input-box {
+        width:250%;
+        height: 300px;px;
+        margin:30px 0;
+        float: center;
+     }
+     
+     label.input-box.input {
+        width:100%;
+        height:100%;
+        background:transparent;
+        border:none;
+        outline:none;
+        border:2px solid rgba(255, 255, 255 .2);
+        border-radius:40px;
+     }

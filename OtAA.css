@@ -1,0 +1,106 @@
+body {
+    background-color:#000000;
+    backdrop-filter: blur(10px);
+    }
+    body{
+        padding:0;
+        margin:0;
+        text-decoration:none;
+        list-style:none;
+        box-sizing:border-box;
+      }
+    
+     nav {
+        background-color:#f9b650;
+        height:80px;
+        width:100%;
+     }
+    
+     label.logo {
+        color:#000000
+        font-size:45px;
+        line-height:80px;
+        padding: 0 100px;
+        font-weight:bold;
+     }
+    
+     nav ul {
+        float:right;
+        margin-right:20px;
+     }
+    
+     nav ul li {
+        display:inline-block;
+        line-height:80px;
+        margin: 0 5px;
+     }
+      nav ul li a {
+        color:rgb(0, 0, 0);
+        font-size:17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+      }
+    
+    a.active,a:hover{
+        color:#f9b650;
+        background:#000000;
+        transition: .5s;
+    }
+    
+    p {
+       font-family: 'Courier New', monospace;
+       font-size:20px;
+       text-align:center;
+       color:#ffffff;
+    }
+    
+    footer {
+       font-size: 100%;
+       background:#f9b650;
+       color:black;
+       width:100%;
+    }
+    
+    button {
+       float: left;
+       display:inline-block;
+       padding: 9px 24px;
+       background:transparent;
+       border:2px solid #fff;
+       border-radius: 40px;
+       color:#f9b650;
+    }
+    
+    p {
+        color:#fff;
+    }
+
+    table body {
+        float:center;
+        margin: 50px 50px;
+        color:rgb(187, 56, 56);
+        background-image: url(Meeting.jpg); no-repeat;
+        backdrop-filter: blur(30px);
+        size: 100px;
+    }
+
+    table, th, td {
+        float:center;
+        border: 1px solid #f9b650;
+        border-radius: 10px;
+        width: 60%;
+        height: 100px;
+        color:#fff;
+        font-size:50px;
+      }
+
+      tr:hover {background-color: rgba(214, 238, 238 .8);}
+
+      h3 {
+        color:white;
+        text-align:center;
+      }
+
+img {
+    filter: opacity(70%);
+}

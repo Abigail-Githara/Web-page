@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a.active,a:hover{
+    color:#000000;
+    background:#f9b650;
+    transition: .5s;
+}
+
+label.logo {
+    color:#000000
+    font-size:45px;
+    line-height:80px;
+    padding: 0 100px;
+    font-weight:bold;
+ }
+
+ nav{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    position: fixed; /*nav fixed to left */
+    top: 0;
+    left: 0;
+    height: 100%; /* Full screen height */
+    width: 250px;
+    display: flex;
+    flex-direction: column; /* vertical*/
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9b650;
+    margin-bottom: 40px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /*links vertical*/
+    align-items: flex-start; /*links left*/
+    width: 100%;
+  }
+  
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 20px;
+    display: block;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #f9b650;
+    color: #000;
+  }
+  
+  /* Hero Section */
+  .hero {
+ /* Push content to the right, so it's not covered by the sidebar */
+    padding: 50px 0;
+    text-align: center;
+    background-color: #000000;
+    color: #f9b650;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    color: #000;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #000;
+    margin-top: 10px;
+  }
+  
+  /* Content Sections */
+  section {
+    padding: 40px 0;
+    margin-left: 130px; /* Same as the hero section, for consistency */
+  }
+  
+  .content-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .content-container h2 {
+    font-size: 30px;
+    color: #000;
+  }
+  
+  .content-container p {
+    font-size: 18px;
+    color: #f9b650;
+    line-height: 1.6;
+  }
+  
+  .content-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .content-container ul li {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width:100%;
+  }
+  
+  footer p {
+    font-size: 16px;
+  }
+  
+  div {
+    width:100%;
+    padding: 30px;
+    border:none;
+    border-radius: 40px;
+  }
+
+  h3 {
+    color:#f9b650;
+    font-size:30px;
+    text-align: center;
+  }
+
+  .hero {
+    width:100%;
+    background: #f9b650;
+    color: #000;
+  }
+
+  hr {
+    color:white;
+  }
+
+.box {
+    color:#fff;
+    background: #000;
+}
+
+.box .h3 {
+    color: #f9b650;
+    text-align: center;
+}
+
+.box. p {
+    color: #fff;
+    font-size: 40px;
+}
